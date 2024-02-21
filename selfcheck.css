@@ -1,0 +1,26 @@
+table{
+    border: 1px solid #c4dcf3;
+    border-collapse:collapse;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: #eef7ff;
+}
+th{
+    background-color: #427fef;
+    color: white;
+    padding:5px;
+}
+tfoot{
+    background-color: #427fef;
+    color: white;
+    text-align: right;
+    padding:5px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: tomato;
+    box-shadow: 10px 10px 10px rgba(167, 13, 13, .5);
+}

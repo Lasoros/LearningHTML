@@ -1,0 +1,21 @@
+body{
+    margin: 10px;
+}
+
+p::first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+::selection{ /*add p or article to make specified, leave blank for global selection*/
+    background-color: pink;
+}
+
+p::after{
+    content: ". . .";
+    display: block;
+}

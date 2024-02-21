@@ -1,0 +1,15 @@
+h1{
+    color: blue; /*!important is considered bad pratice, can make css code messy*/
+}
+
+.highlight{
+    color: deeppink;
+}
+
+#products{
+    color: orange;
+}
+
+.featured #products {
+    color: blueviolet;
+}

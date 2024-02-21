@@ -1,0 +1,14 @@
+.box {
+    width: 700px;
+    height: 200px;
+    
+    /* background: linear-gradient(45deg, purple, orange , tomato); */
+    background: radial-gradient(circle at top left, white, yellow);
+    border: 15px dashed rosybrown;
+    border-top: 10px solid blueviolet;
+     /*border-width: 10px 20px 10px 20px; short hand for code is border-width: 10px 20px; trbl, top right bottom left*/
+
+}
+
+
+/*rgba or hsla can be used to make opacity, rgb hex cannot*. a is alphachannel/
